@@ -25,19 +25,20 @@ Things you may want to cover:
     8  rvm update 2.0.0
     9  rvm use 2.0.0 --default
     10  ruby -v
-
-   Installing Rails:
-   11  gem install rails ~> 5.2.2
+    
+    Installing Rails:
+    11  gem install rails ~> 5.2.2
 
 ## Usage:
 	git checkout https://github.com/dileeppdkr/convert-alpha-character-to-number-ruby.git
 	cd convert-alpha-character-to-number-ruby
 	rails s
- API:
- curl -X GET \
-  'http://localhost:3000/api/v1/alpha_to_number?string=BAA' \
-  -H 'Cache-Control: no-cache' \
-  -H 'Postman-Token: 67ef6212-6949-427e-9f19-cd92c0410ab0'
+## API:
+	curl -X GET \
+	'http://localhost:3000/api/v1/alpha_to_number?string=BAA' \
+	-H 'Cache-Control: no-cache' \
+	-H 'Postman-Token: 67ef6212-6949-427e-9f19-cd92c0410ab0'
+	
+	Expected output:
+	1379
 
- Expected output:
- 1379
