@@ -32,6 +32,7 @@ Things you may want to cover:
 ## Usage:
 	git checkout https://github.com/dileeppdkr/convert-alpha-character-to-number-ruby.git
 	cd convert-alpha-character-to-number-ruby
+	bundle install
 	rails s
 ## API:
 	curl -X GET \
