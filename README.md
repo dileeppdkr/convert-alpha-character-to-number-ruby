@@ -5,11 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## Ruby version
 	ruby '2.3.1'
-* System dependencies
+## System dependencies
 	None
-* Installation 
+## Installation 
 	Installing RVM:
 
     1  sudo apt-get update
@@ -30,7 +30,7 @@ Things you may want to cover:
 
    11  gem install rails ~> 5.2.2
 
-* Usage:
+## Usage:
 	git checkout https://github.com/dileeppdkr/convert-alpha-character-to-number-ruby.git
 	cd convert-alpha-character-to-number-ruby
 	rails s
