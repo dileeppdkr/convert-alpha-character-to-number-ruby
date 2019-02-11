@@ -24,10 +24,9 @@ Things you may want to cover:
     7  rvm install
     8  rvm update 2.0.0
     9  rvm use 2.0.0 --default
-   10  ruby -v
+    10  ruby -v
 
    Installing Rails:
-
    11  gem install rails ~> 5.2.2
 
 ## Usage:
